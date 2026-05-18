@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // Match backend port
+  baseURL: 'https://endsem-backend.onrender.com/api', // Match backend port
 });
 
 api.interceptors.request.use((config) => {
